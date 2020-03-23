@@ -58,6 +58,10 @@ h3 {
     text-decoration: none;
 }
 
+.facts {
+    color: rgb(64, 64, 64);
+}
+
 .about-us {
     background-color: rgb(255, 203, 120);
 }

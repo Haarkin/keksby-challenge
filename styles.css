@@ -53,15 +53,18 @@ h3 {
     line-height: 55px;
 }
 
-.new-item-title {
-    /*color: rgb(130, 92, 29); - це для другого кваса*/
+.details {
+    color: rgb(131, 71, 0);
+    text-decoration: none;
 }
 
 .about-us {
     background-color: rgb(255, 203, 120);
 }
 
-.info {}
+th {
+    color: rgb(173, 173, 173);
+}
 
 .info-link {
     color: rgb(139, 83, 17);
@@ -71,7 +74,10 @@ h3 {
     background-color: rgb(237, 229, 216);
 }
 
-.assortiment {}
+.continue-read-button {
+    color: rgb(165, 160, 151);
+    text-decoration: none;
+}
 
 .order-now {
     background-color: rgb(255, 203, 120);

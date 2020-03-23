@@ -4,11 +4,11 @@ body {
     font-size: 16px;
     line-height: 24px;
     font-family: "Arial", sans-serif;
-    color: #404040;
+    color: black;
     background-color: white;
 }
 
-header {
+.page-header {
     background-color: rgb(153, 101, 5);
 }
 
@@ -18,35 +18,26 @@ header {
     line-height: 55px;
     text-align: center;
     color: white;
-    padding-bottom: 30px;
-}
-
-.page-header,
-.page-footer {
-    padding: 10px;
-    color: #c3c3c3;
-    background-color: #363636;
 }
 
 .main-nav {
     list-style: none;
 }
 
-.main-nav li {
+.main-nav-item {
     text-transform: uppercase;
 }
 
-.main-nav a {
-    color: hsl(0, 0%, 0%);
+.main-nav-link {
     text-decoration: none;
     color: white;
 }
 
-.main-nav a:hover {
+.main-nav-link:hover {
     text-decoration: underline;
 }
 
-.main-nav a:active {
+.main-nav-link:active {
     color: rgba(255, 255, 255, 0.3);
 }
 
@@ -55,7 +46,6 @@ h2 {
     font-size: 40px;
     line-height: 55px;
     font-family: "Arial", serif;
-    padding-left: 25%;
 }
 
 h3 {
@@ -65,44 +55,29 @@ h3 {
     font-family: "Arial", serif;
 }
 
-.kvas-vahter {
-    padding-left: 27%;
-    padding-top: 3%;
+.new-item-title {
+    /*color: rgb(130, 92, 29); - це для другого кваса*/
 }
 
-.kvas-romantik {
-    padding-right: 38%;
-    text-align: right;
-    color: rgb(130, 92, 29);
-}
-
-.about-us {
-    color: black;
-}
+.about-us {}
 
 .info {
     background-color: rgb(255, 203, 120);
-    color: black;
 }
 
-.info a {
+.info-link {
     color: rgb(139, 83, 17);
 }
 
-.press {
-    color: black;
-}
+.press {}
 
-.assortiment {
-    color: black;
-}
+.assortiment {}
 
 .order-now {
     background-color: rgb(255, 203, 120);
-    color: black;
 }
 
-footer {
+.page-footer {
     background-color: black;
 }
 
@@ -110,6 +85,6 @@ footer {
     color: white;
 }
 
-footer p {
+.footer-paragraph {
     color: rgb(111, 111, 111)
 }

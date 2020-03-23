@@ -57,17 +57,23 @@ h3 {
     /*color: rgb(130, 92, 29); - це для другого кваса*/
 }
 
-.about-us {}
-
-.info {
+.about-us {
     background-color: rgb(255, 203, 120);
 }
+
+.info {}
 
 .info-link {
     color: rgb(139, 83, 17);
 }
 
-] .order-now {
+.press {
+    background-color: rgb(237, 229, 216);
+}
+
+.assortiment {}
+
+.order-now {
     background-color: rgb(255, 203, 120);
 }
 
@@ -79,6 +85,20 @@ h3 {
     color: #FFFFFF;
 }
 
+.footer-nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .footer-paragraph {
-    color: rgb(111, 111, 111)
+    color: rgb(152, 152, 152);
+}
+
+.developer {
+    color: rgb(152, 152, 152);
+}
+
+.developer-name {
+    color: rgb(152, 152, 152);
+    text-decoration: none;
 }

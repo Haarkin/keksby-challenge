@@ -4,8 +4,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     font-family: "Arial", sans-serif;
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .page-header {
@@ -17,7 +17,7 @@ body {
     font-weight: bold;
     line-height: 55px;
     text-align: center;
-    color: white;
+    color: #FFFFFF;
 }
 
 .main-nav {
@@ -30,7 +30,7 @@ body {
 
 .main-nav-link {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
 }
 
 .main-nav-link:hover {
@@ -45,14 +45,12 @@ h2 {
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
-    font-family: "Arial", serif;
 }
 
 h3 {
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
-    font-family: "Arial", serif;
 }
 
 .new-item-title {
@@ -69,11 +67,7 @@ h3 {
     color: rgb(139, 83, 17);
 }
 
-.press {}
-
-.assortiment {}
-
-.order-now {
+] .order-now {
     background-color: rgb(255, 203, 120);
 }
 
@@ -82,7 +76,7 @@ h3 {
 }
 
 .footer-nav {
-    color: white;
+    color: #FFFFFF;
 }
 
 .footer-paragraph {

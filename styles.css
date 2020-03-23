@@ -58,6 +58,14 @@ h3 {
     text-decoration: none;
 }
 
+.composition {
+    color: rgb(64, 64, 64);
+}
+
+.description {
+    color: rgb(64, 64, 64);
+}
+
 .facts {
     color: rgb(64, 64, 64);
 }

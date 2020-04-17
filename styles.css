@@ -6,10 +6,30 @@ body {
     font-family: "Arial", sans-serif;
     color: rgb(64, 64, 64);
     background-color: #FFFFFF;
+    min-width: 1040px;
+}
+
+.container {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .page-header {
     background-color: rgb(153, 101, 5);
+    padding-top: 40px;
+}
+
+.header-logo {
+    float: left;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 20px;
 }
 
 .header-title {
@@ -18,14 +38,32 @@ body {
     line-height: 55px;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 140px;
+    padding-top: 100px;
 }
 
 .main-nav {
     list-style: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 50px;
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
 }
 
 .main-nav-item {
     text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+    margin-left: 80px;
+}
+
+.main-nav-item:first-child {
+    margin-left: 0;
 }
 
 .main-nav-link {
@@ -39,6 +77,23 @@ body {
 
 .main-nav-link:active {
     color: rgba(255, 255, 255, 0.3);
+}
+
+.new-items {
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.first-item {
+    float: left;
+}
+
+.second-item {
+    float: right;
+}
+
+.item-description {
+    max-width: 400px;
 }
 
 h2 {
@@ -62,6 +117,21 @@ h3 {
 
 .about-us {
     background-color: rgb(255, 203, 120);
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.fact-about-us {
+    float: left;
+    margin-left: 70px;
+}
+
+.fact-about-us:first-child {
+    margin-left: 0;
+}
+
+.facts {
+    max-width: 250px;
 }
 
 th {

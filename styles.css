@@ -23,23 +23,12 @@ body {
 .page-header {
     background-color: rgb(153, 101, 5);
     padding-top: 40px;
+    padding-left: 100px;
 }
 
 .header-logo {
     float: left;
     margin: 0;
-    margin-left: 100px;
-    margin-right: 20px;
-}
-
-.header-title {
-    font-size: 70px;
-    font-weight: bold;
-    line-height: 55px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-bottom: 140px;
-    padding-top: 100px;
 }
 
 .main-nav {
@@ -48,22 +37,22 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0;
-    margin-right: 0;
+    padding-right: 0;
     margin-left: 50px;
-    border-top: grey 1px solid;
-    border-bottom: grey 1px solid;
+    border-top: rgb(156, 145, 110) 1px solid;
+    border-bottom: rgb(156, 145, 110) 1px solid;
 }
 
 .main-nav-item {
     text-transform: uppercase;
     font-weight: bold;
-    float: left;
     margin: 0;
-    margin-left: 80px;
+    margin-right: 80px;
+    float: left;
 }
 
-.main-nav-item:first-child {
-    margin-left: 0;
+.main-nav-item:last-child {
+    margin-right: 0;
 }
 
 .main-nav-link {
@@ -77,6 +66,14 @@ body {
 
 .main-nav-link:active {
     color: rgba(255, 255, 255, 0.3);
+}
+
+.header-title {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .new-items {
@@ -123,11 +120,11 @@ h3 {
 
 .fact-about-us {
     float: left;
-    margin-left: 70px;
+    margin-right: 70px;
 }
 
-.fact-about-us:first-child {
-    margin-left: 0;
+.fact-about-us:last-child {
+    margin-right: 0;
 }
 
 .facts {

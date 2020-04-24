@@ -9,68 +9,80 @@
 
 <body>
     <header class="page-header">
-        <img src="img/logo.png" alt="Лого">
-        <ul class="main-nav">
-            <li class="main-nav-item"><a href="#" class="main-nav-link">История</a></li>
-            <li class="main-nav-item"><a href="#" class="main-nav-link">Производство</a></li>
-            <li class="main-nav-item"><a href="#" class="main-nav-link">Ассортимент</a></li>
-            <li class="main-nav-item"><a href="#" class="main-nav-link">Где купить</a></li>
-        </ul>
-        <p class="header-title">Крафтовый квас<br> всему голова!</p>
+        <div class="container">
+            <img src="img/logo.png" alt="Лого" class="header-logo">
+            <ul class="main-nav">
+                <li class="main-nav-item"><a href="#" class="main-nav-link">История</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">Производство</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">Ассортимент</a></li>
+                <li class="main-nav-item"><a href="#" class="main-nav-link">Где купить</a></li>
+            </ul>
+            <p class="header-title">Крафтовый квас<br> всему голова!</p>
+        </div>
     </header>
     <main>
         <section class="new-items">
-            <h2>Новинки</h2>
-            <h3 class="new-item-title">Вахтёр</h3>
-            <table>
-                <tr>
-                    <td>Алк.</td>
-                    <td>&lt; 1%</td>
-                </tr>
-                <tr>
-                    <td>Ккал</td>
-                    <td>35</td>
-                </tr>
-            </table>
-            <p>Ржаной хлеб, Вода, Солод, Соль</p>
-            <img src="img/bottle-left.jpg" alt="Бутылка Вахтёра">
-            <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!
-            </p>
-            <a href="#" class="details">Подробнее</a>
-            <a href="#">Купить</a> <b>150 Р.</b>
-            <h3 class="new-item-title">Романтик</h3>
-            <table>
-                <tr>
-                    <td>Алк.</td>
-                    <td>&lt; 0,5%</td>
-                </tr>
-                <tr>
-                    <td>Ккал</td>
-                    <td>27</td>
-                </tr>
-            </table>
-            <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
-            <img src="img/bottle-right.jpg" alt="Бутылка Романтика">
-            <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.
-            </p>
-            <a href="#" class="details">Подробнее</a>
-            <a href="#">Купить</a> <b>90 Р.</b>
+            <div class="container">
+                <h2>Новинки</h2>
+                <div class="clearfix">
+                    <div class="first-item">
+                        <h3 class="new-item-title">Вахтёр</h3>
+                        <table>
+                            <tr>
+                                <td>Алк.</td>
+                                <td>&lt; 1%</td>
+                            </tr>
+                            <tr>
+                                <td>Ккал</td>
+                                <td>35</td>
+                            </tr>
+                        </table>
+                        <p>Ржаной хлеб, Вода, Солод, Соль</p>
+                        <img src="img/bottle-left.jpg" alt="Бутылка Вахтёра">
+                        <p class="item-description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!
+                        </p>
+                        <a href="#" class="details">Подробнее</a>
+                        <a href="#">Купить</a> <b>150 Р.</b>
+                    </div>
+                    <div class="second-item">
+                        <h3 class="new-item-title">Романтик</h3>
+                        <table>
+                            <tr>
+                                <td>Алк.</td>
+                                <td>&lt; 0,5%</td>
+                            </tr>
+                            <tr>
+                                <td>Ккал</td>
+                                <td>27</td>
+                            </tr>
+                        </table>
+                        <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+                        <img src="img/bottle-right.jpg" alt="Бутылка Романтика">
+                        <p class="item-description">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.
+                        </p>
+                        <a href="#" class="details">Подробнее</a>
+                        <a href="#">Купить</a> <b>90 Р.</b>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="about-us">
-            <ul>
-                <li>
-                    <h2>Варим сами</h2>
-                    <p class="facts">Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
-                </li>
-                <li>
-                    <h2>Своё, родное</h2>
-                    <p class="facts">Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
-                </li>
-                <li>
-                    <h2>Не экономим</h2>
-                    <p class="facts">Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="info-about-us clearfix">
+                    <li class="fact-about-us">
+                        <h2>Варим сами</h2>
+                        <p class="facts">Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
+                    </li>
+                    <li class="fact-about-us">
+                        <h2>Своё, родное</h2>
+                        <p class="facts">Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
+                    </li>
+                    <li class="fact-about-us">
+                        <h2>Не экономим</h2>
+                        <p class="facts">Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="info">
             <h2> Немного истории</h2>

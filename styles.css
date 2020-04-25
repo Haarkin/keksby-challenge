@@ -96,6 +96,7 @@ body {
 }
 
 h2 {
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
     line-height: 55px;
@@ -103,8 +104,9 @@ h2 {
 }
 
 h3 {
+    text-transform: uppercase;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 55px;
     color: #000000;
 }
@@ -131,6 +133,33 @@ h3 {
 
 .facts {
     max-width: 250px;
+}
+
+.info {
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.history {}
+
+.history-fact {
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+.history-description {
+    display: inline-block;
+    max-width: 400px;
+}
+
+.kvas-img {
+    float: right;
+    display: inline-block;
+}
+
+.wiki-source {
+    float: right;
 }
 
 th {

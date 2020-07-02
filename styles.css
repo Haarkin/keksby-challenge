@@ -26,21 +26,27 @@ body {
     padding-bottom: 100px;
 }
 
+.logo-and-nav {
+    margin: 0;
+    display: inline-block;
+}
+
 .header-logo {
     display: inline-block;
     margin: 0;
+    margin-top: 40px;
 }
 
 .main-nav {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
-    display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 50px;
+    margin-left: 30px;
     border-top: rgb(156, 145, 110) 1px solid;
     border-bottom: rgb(156, 145, 110) 1px solid;
 }
@@ -71,11 +77,13 @@ body {
 }
 
 .header-title {
+    margin: 0;
     font-size: 70px;
     font-weight: bold;
     line-height: 55px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 50px;
 }
 
 .new-items {
@@ -84,18 +92,22 @@ body {
 }
 
 .first-item {
+    margin: 0;
     float: left;
 }
 
 .second-item {
+    margin: 0;
     float: right;
 }
 
 .item-description {
+    margin: 0;
     max-width: 400px;
 }
 
 h2 {
+    margin: 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
@@ -104,6 +116,7 @@ h2 {
 }
 
 h3 {
+    margin: 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
@@ -123,6 +136,7 @@ h3 {
 }
 
 .fact-about-us {
+    margin: 0;
     float: left;
     margin-right: 70px;
 }
@@ -174,21 +188,126 @@ th {
     background-color: rgb(237, 229, 216);
 }
 
+.press-title {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.press-cite {
+    margin: 0;
+    max-width: 900px;
+    padding-bottom: 60px;
+}
+
+.newspaper {
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+
 .continue-read-button {
     color: rgb(165, 160, 151);
     text-decoration: none;
+    padding-top: 40px;
+}
+
+.table-row {
+    border-bottom: rgb(156, 145, 110) 1px solid;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.table-data {
+    text-transform: uppercase;
+}
+
+.table-name {
+    font-weight: bold;
+}
+
+.tr-first {}
+
+.tr-second {
+    text-align: center;
+}
+
+.tr-third {}
+
+.tr-fourth {}
+
+.tr-fifth {}
+
+.table-header {
+    padding-right: 150px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.td-first-item {
+    padding-right: 150px;
+}
+
+.td-second-item {
+    padding-right: 150px;
+}
+
+.td-third-item {
+    padding-right: 150px;
+}
+
+.td-fourth-item {
+    padding-right: 150px;
 }
 
 .order-now {
     background-color: rgb(255, 203, 120);
 }
 
+.your-name {
+    display: inline-block;
+}
+
+.first-phone-number {
+    float: left;
+}
+
+.second-phone-number {
+    float: right;
+}
+
 .page-footer {
     background-color: black;
 }
 
+.footer-logo {
+    padding-top: 40px;
+}
+
 .footer-nav {
     color: #FFFFFF;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 30px;
+    border-top: rgb(156, 145, 110) 1px solid;
+    border-bottom: rgb(156, 145, 110) 1px solid;
+    float: right;
+}
+
+.footer-nav-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 80px;
+    display: inline-block;
 }
 
 .footer-nav-link {
@@ -196,9 +315,28 @@ th {
     text-decoration: none;
 }
 
+.footer-info {}
+
+.social-networks {
+    float: left;
+}
+
+.footer-text {}
+
 .footer-paragraph {
     color: rgb(152, 152, 152);
+    max-width: 280px;
+    margin: 0 auto;
 }
+
+.developer-info {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    float: right;
+}
+
+.academy-logo {}
 
 .developer {
     color: rgb(152, 152, 152);

@@ -21,32 +21,36 @@ body {
 }
 
 .page-header {
-    background-color: rgb(153, 101, 5);
+    background-image: url("img/wheat-back.jpg");
+    background-position: bottom;
+    background-size: cover;
     padding-top: 40px;
     padding-bottom: 100px;
 }
 
 .logo-and-nav {
     margin: 0;
-    display: inline-block;
+    padding-top: 20px;
 }
 
 .header-logo {
     display: inline-block;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 0;
+    float: left;
+    clear: right;
 }
 
 .main-nav {
     display: inline-block;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     list-style: none;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 30px;
+    margin-left: 50px;
     border-top: rgb(156, 145, 110) 1px solid;
     border-bottom: rgb(156, 145, 110) 1px solid;
 }
@@ -86,24 +90,69 @@ body {
     margin-top: 50px;
 }
 
+.item-table {
+    float: right;
+    border-collapse: collapse;
+    margin-right: 20px;
+    clear: both;
+    width: 200px;
+}
+
+.item-table tr {}
+
+.item-table tr td {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 0;
+    border: 1px solid black;
+}
+
 .new-items {
     padding-top: 50px;
     padding-bottom: 55px;
 }
 
+.new-items-container {
+    border-collapse: collapse;
+}
+
 .first-item {
     margin: 0;
     float: left;
+    max-width: 500px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding-left: 7px;
+    border-collapse: collapse;
 }
 
 .second-item {
     margin: 0;
     float: right;
+    max-width: 500px;
+    border-right: 1px solid grey;
+    padding-left: 7px;
+    border-collapse: collapse;
+}
+
+.new-item-img {}
+
+.ingredients {
+    max-width: 170px;
+    margin: 0;
+    float: right;
+    clear: right;
+    padding-top: 20px;
 }
 
 .item-description {
     margin: 0;
     max-width: 400px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -127,6 +176,21 @@ h3 {
 .details {
     color: rgb(131, 71, 0);
     text-decoration: none;
+    border: solid 2px rgb(131, 71, 0);
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.buy-button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(131, 71, 0);
+    border: solid 2px rgb(131, 71, 0);
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .about-us {
@@ -139,14 +203,30 @@ h3 {
     margin: 0;
     float: left;
     margin-right: 70px;
+    list-style: none;
+    border-right: solid 1px rgb(230, 182, 108);
+    padding-top: 90px;
 }
 
 .fact-about-us:last-child {
     margin-right: 0;
+    border-right: none;
 }
 
 .facts {
     max-width: 250px;
+}
+
+.feature-exp {
+    background: url("img/icon-brew.png") top left no-repeat;
+}
+
+.feature-ours {
+    background: url("img/icon-matreshka.png") top left no-repeat;
+}
+
+.feature-qual {
+    background: url("img/icon-thumbsup.png") top left no-repeat;
 }
 
 .info {
@@ -156,24 +236,30 @@ h3 {
 
 .history {}
 
+.kvas-history {
+    margin: 0;
+}
+
 .history-fact {
     text-transform: uppercase;
     font-weight: bold;
-    float: left;
+    display: inline-block;
 }
 
 .history-description {
-    display: inline-block;
     max-width: 400px;
 }
 
 .kvas-img {
     float: right;
     display: inline-block;
+    clear: right;
 }
 
 .wiki-source {
     float: right;
+    display: inline-block;
+    clear: right;
 }
 
 th {
@@ -186,6 +272,7 @@ th {
 
 .press {
     background-color: rgb(237, 229, 216);
+    clear: left;
 }
 
 .press-title {
@@ -213,69 +300,147 @@ th {
     padding-top: 40px;
 }
 
+.kvas-assortiment {
+    display: block;
+}
+
 .table-row {
     border-bottom: rgb(156, 145, 110) 1px solid;
-    display: block;
     padding-bottom: 20px;
     padding-top: 15px;
+    display: block;
+    width: 100%;
 }
 
 .table-data {
     text-transform: uppercase;
 }
 
+.table-header {
+    text-align: left;
+}
+
 .table-name {
     font-weight: bold;
 }
 
-.tr-first {}
+.tr-first {
+    width: 170px;
+    padding-right: 140px;
+}
 
 .tr-second {
-    text-align: center;
+    width: 100px;
+    padding-right: 30px;
 }
 
-.tr-third {}
-
-.tr-fourth {}
-
-.tr-fifth {}
-
-.table-header {
-    padding-right: 150px;
-    padding-bottom: 30px;
-    text-transform: uppercase;
+.tr-third {
+    width: 100px;
+    padding-right: 30px;
 }
 
-.td-first-item {
-    padding-right: 150px;
+.tr-fourth {
+    width: 100px;
+    padding-right: 230px;
 }
 
-.td-second-item {
-    padding-right: 150px;
-}
-
-.td-third-item {
-    padding-right: 150px;
-}
-
-.td-fourth-item {
-    padding-right: 150px;
+.tr-fifth {
+    width: 100px;
+    text-align: right;
 }
 
 .order-now {
     background-color: rgb(255, 203, 120);
 }
 
+.form-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
 .your-name {
     display: inline-block;
+    width: 100%;
+}
+
+.login-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
 }
 
 .first-phone-number {
     float: left;
+    width: 40%;
+}
+
+.first-phone-number-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
 }
 
 .second-phone-number {
     float: right;
+    width: 40%;
+}
+
+.second-phone-number-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.email-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.value-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.comment-input {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.checkbox-area {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.checkbox-area input[type="checkbox"] {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.checkbox-confirm {
+    background-color: rgb(230, 182, 108);
+    border: none;
+    padding: 5px 10px;
+}
+
+.submit-btn {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(131, 71, 0);
+    border: solid 2px rgb(131, 71, 0);
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .page-footer {
@@ -319,6 +484,36 @@ th {
 
 .social-networks {
     float: left;
+    font-size: 0;
+}
+
+.social-networks a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    border: solid 1px rgb(50, 46, 37);
+    border-collapse: collapse;
+    color: #ffffff;
+    background-color: rgb(27, 27, 27);
+}
+
+.social-btn-vk {
+    background-position: 16px -238px;
+    background-image: url("img/icon-vk.png");
+    background-repeat: no-repeat;
+}
+
+.social-btn-fb {
+    background-position: 19px -297px;
+    background-image: url("img/icon-fb.png");
+    background-repeat: no-repeat;
+}
+
+.social-btn-in {
+    background-position: 13px -358px;
+    background-image: url("img/icon-insta.png");
+    background-repeat: no-repeat;
 }
 
 .footer-text {}
@@ -327,16 +522,23 @@ th {
     color: rgb(152, 152, 152);
     max-width: 280px;
     margin: 0 auto;
+    display: inline-block;
+    padding-left: 100px;
 }
 
 .developer-info {
     margin: 0;
     padding: 0;
-    padding-bottom: 30px;
-    float: right;
+    padding-bottom: 50px;
+    display: inline-block;
+    padding-left: 100px;
 }
 
-.academy-logo {}
+.academy-logo {
+    padding: 10px;
+    background-color: rgb(27, 27, 27);
+    border: solid 1px rgb(50, 46, 37);
+}
 
 .developer {
     color: rgb(152, 152, 152);

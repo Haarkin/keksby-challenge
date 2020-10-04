@@ -98,9 +98,7 @@ body {
     width: 200px;
 }
 
-.item-table tr {}
-
-.item-table tr td {
+.item-table td {
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 7px;
@@ -108,7 +106,7 @@ body {
     padding-top: 9px;
     padding-bottom: 9px;
     margin: 0;
-    border: 1px solid black;
+    border: 1px solid rgb(229, 229, 229);
 }
 
 .new-items {
@@ -120,7 +118,7 @@ body {
     border-collapse: collapse;
 }
 
-.first-item {
+.item {
     margin: 0;
     float: left;
     max-width: 500px;
@@ -130,16 +128,15 @@ body {
     border-collapse: collapse;
 }
 
-.second-item {
+.item:last-child {
     margin: 0;
     float: right;
     max-width: 500px;
     border-right: 1px solid grey;
+    border-left: none;
     padding-left: 7px;
     border-collapse: collapse;
 }
-
-.new-item-img {}
 
 .ingredients {
     max-width: 170px;
@@ -217,15 +214,15 @@ h3 {
     max-width: 250px;
 }
 
-.feature-exp {
+.fact-about-us--exp {
     background: url("img/icon-brew.png") top left no-repeat;
 }
 
-.feature-ours {
+.fact-about-us--ours {
     background: url("img/icon-matreshka.png") top left no-repeat;
 }
 
-.feature-qual {
+.fact-about-us--qual {
     background: url("img/icon-thumbsup.png") top left no-repeat;
 }
 
@@ -324,27 +321,31 @@ th {
     font-weight: bold;
 }
 
-.tr-first {
+.table-name sup {
+    width: 50px;
+    padding: 4px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: x-small;
+}
+
+.tr-item:first-child {
     width: 170px;
     padding-right: 140px;
 }
 
-.tr-second {
+.tr-item {
     width: 100px;
     padding-right: 30px;
 }
 
-.tr-third {
-    width: 100px;
-    padding-right: 30px;
-}
-
-.tr-fourth {
+.tr-item:nth-child(4) {
     width: 100px;
     padding-right: 230px;
 }
 
-.tr-fifth {
+.tr-item:last-child {
     width: 100px;
     text-align: right;
 }
@@ -480,8 +481,6 @@ th {
     text-decoration: none;
 }
 
-.footer-info {}
-
 .social-networks {
     float: left;
     font-size: 0;
@@ -499,24 +498,22 @@ th {
 }
 
 .social-btn-vk {
-    background-position: 16px -238px;
+    background-position: 20px 20px;
     background-image: url("img/icon-vk.png");
     background-repeat: no-repeat;
 }
 
 .social-btn-fb {
-    background-position: 19px -297px;
+    background-position: 20px 20px;
     background-image: url("img/icon-fb.png");
     background-repeat: no-repeat;
 }
 
 .social-btn-in {
-    background-position: 13px -358px;
+    background-position: 20px 20px;
     background-image: url("img/icon-insta.png");
     background-repeat: no-repeat;
 }
-
-.footer-text {}
 
 .footer-paragraph {
     color: rgb(152, 152, 152);
